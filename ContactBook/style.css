@@ -1,0 +1,65 @@
+/* General Page Styles */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f9fafb;
+  margin: 0;
+  padding: 20px;
+}
+
+/* Button Styles */
+button {
+  margin: 10px 5px;
+  padding: 10px 20px;
+  font-size: 14px;
+  border: none;
+  border-radius: 6px;
+  background-color: #3f51b5;
+  color: white;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #303f9f;
+}
+
+/* Table Styles */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: rgb(239, 249, 249);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  margin-top: 20px;
+}
+
+th, td {
+  padding: 12px 15px;
+  text-align: left;
+  border-bottom: 1px solid #e0e0e0;
+  vertical-align: middle;
+}
+
+th {
+  background-color: #f1f1f1;
+  font-weight: bold;
+}
+
+tr:hover {
+  background-color: #eae3ff;
+  cursor: pointer;
+}
+
+/* Avatar Image */
+td img {
+  width: 40px;
+  height: 40px;
+  border-radius: 70%;
+  object-fit: contain;
+  border: 1px solid #ccc;
+}
+
+/* Name Styles */
+td h5 {
+  margin: 0;
+  font-size: 13px;
+  color: #333;
+}
